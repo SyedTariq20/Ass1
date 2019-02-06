@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <getopt.h>
+#include <conio.h>
 
 #define INPUT_FILE "input.dat"
 #define OUTPUT_FILE "output.dat"
