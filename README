@@ -1,0 +1,8 @@
+To compile it the simplest possible way just type:
+$ gcc -o logParse main.c
+
+To see details on how to use the program afther compiling type:
+$ ./logParse -h
+
+If the input file does not have the wanted format, the program may crash,
+also if the input file does not exist the program will exit
