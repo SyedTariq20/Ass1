@@ -7,6 +7,7 @@
 #include <getopt.h>
 
 
+
 #define INPUT_FILE "input.dat"
 #define OUTPUT_FILE "output.dat"
 
@@ -31,6 +32,7 @@ struct stack
 	size_t size;
 	size_t max;
 	int* data;
+	int a;
 };
 
 static void stack_init(struct stack* s, size_t max)
